@@ -1,0 +1,26 @@
+{
+    "name": "adobe-jsx",
+    "version": "1.0.0",
+    "description": "command line tool to execute adobe extendscript .jsx file",
+    "type": "module",
+    "bin": {
+        "jsx": "bin/jsx.mjs"
+    },
+    "scripts": {
+        "build": "unbuild"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "extends": "@antfu",
+    "devDependencies": {
+        "@antfu/eslint-config": "0.27.0",
+        "@types/node": "18.11.2",
+        "prettier": "2.7.1",
+        "typescript": "4.8.4",
+        "unbuild": "0.8.11"
+    },
+    "dependencies": {
+        "consola": "2.15.3"
+    }
+}
