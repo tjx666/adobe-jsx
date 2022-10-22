@@ -37,6 +37,9 @@
         "dist",
         "bin"
     ],
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
     "scripts": {
         "preinstall": "npx only-allow pnpm",
         "prepublishOnly": "pnpm build",
