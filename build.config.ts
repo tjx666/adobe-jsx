@@ -5,8 +5,10 @@ export default defineBuildConfig({
     entries: [resolve(__dirname, 'src/jsx')],
     clean: true,
     rollup: {
+        inlineDependencies: true,
         esbuild: {
-          target: 'es2022'
-        }
-      },
+            target: 'es2022',
+            minify: true
+        },
+    },
 });

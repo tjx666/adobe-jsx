@@ -8,12 +8,10 @@ specifiers:
   typescript: 4.8.4
   unbuild: 0.8.11
 
-dependencies:
-  consola: 2.15.3
-
 devDependencies:
   '@antfu/eslint-config': 0.27.0_typescript@4.8.4
   '@types/node': 18.11.2
+  consola: 2.15.3
   prettier: 2.7.1
   typescript: 4.8.4
   unbuild: 0.8.11
@@ -800,6 +798,7 @@ packages:
 
   /consola/2.15.3:
     resolution: {integrity: sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==}
+    dev: true
 
   /convert-source-map/1.9.0:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
