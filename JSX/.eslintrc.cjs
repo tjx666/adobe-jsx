@@ -1,6 +1,8 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
-    globals: {},
+    globals: {
+        _adobe_jsx_: 'readonly'
+    },
     parserOptions: {
         requireConfigFile: false,
     },
