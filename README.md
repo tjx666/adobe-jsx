@@ -24,7 +24,7 @@ jsx /path/to/jsxScript.jsx
 
 - [ ] tests
 - [ ] ci
-- [ ] support $.write/$.writeln redirect to stdout
+- [ ] support `$.write/$.writeln` redirect to stdout
 - [ ] support access `jsx` command arguments
 - [ ] support specify adobe app and version
 - [ ] provide node api to execute jsx
