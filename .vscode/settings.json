@@ -1,0 +1,10 @@
+{
+    "vsicons.associations.files": [{ "extensions": ["jsx"], "icon": "js", "format": "svg" }],
+    "files.associations": {
+        "**/JSX/**/*.jsx": "javascript",
+        "**/Desktop/ScriptingListenerJS.log": "javascript"
+    },
+    "[javascript][typescript][typescriptreact][json][jsonc][html][css][less][markdown][xml][yaml][svg]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

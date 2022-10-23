@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run File",
+            "type": "extendscript-debug",
+            "request": "launch",
+            "hostAppSpecifier": "photoshop",
+            "script": "${file}",
+            "hiddenTypes": ["Function", "builtin"]
+        },
+        {
+            "name": "Attach Debug",
+            "type": "extendscript-debug",
+            "request": "attach",
+            "hostAppSpecifier": "photoshop"
+        }
+    ]
+}
