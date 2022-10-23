@@ -26,4 +26,5 @@ module.exports = {
             { argsIgnorePattern: '^_', varsIgnorePattern: '^_' },
         ],
     },
+    ignorePatterns: ['test/**/*.jsx']
 };

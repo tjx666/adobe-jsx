@@ -30,12 +30,22 @@
         "command"
     ],
     "type": "module",
+    "exports": {
+        ".": {
+            "require": "./dist/jsx.cjs",
+            "import": "./dist/jsx.mjs"
+        }
+    },
+    "main": "dist/jsx.cjs",
+    "module": "dist/jsx.mjs",
+    "types": "dist/jsx.d.ts",
     "bin": {
         "jsx": "bin/jsx.mjs"
     },
     "files": [
         "dist",
-        "bin"
+        "bin",
+        "JSX/*.jsx"
     ],
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
@@ -44,7 +54,8 @@
         "preinstall": "npx only-allow pnpm",
         "prepublishOnly": "pnpm build",
         "start": "esno src/jsx.ts",
-        "build": "unbuild"
+        "build": "unbuild",
+        "test": "vitest --run"
     },
     "eslintConfig": {
         "extends": "@antfu"

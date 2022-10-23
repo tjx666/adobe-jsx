@@ -15,3 +15,4 @@ export function pathExists(path: string) {
 }
 
 export const exec = promisify(childProcess.exec);
+export const writeToStdout = promisify(process.stdout.write.bind(process.stdout));
